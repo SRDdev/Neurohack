@@ -19,7 +19,13 @@ To run the code, the following libraries are required:
 - pandas
 
 ## Inference
-![image](https://user-images.githubusercontent.com/84516626/212530100-037b3ed5-1d4c-4506-85df-44055697795e.png)
+
+```python
+sentence = "Please can you solve this Problem"
+output = decode_sequences(sentence)
+print(output)
+# output : Kripya aap is problem ka samadhan kar sakte he
+```
 
 ## Contact
 In case of any queries or issues, please contact us at Shreyasrd31@gmail.com
