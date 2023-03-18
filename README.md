@@ -1,6 +1,14 @@
 # NeuroHack
 Welcome to NeuroHack, a Machine Learning Hackathon organized by the College of Engineering Pune (COEP). The event is open to students interested in using Machine Learning to solve real-world problems.
 
+## Model
+This model is available as a `Keras` model on HuggingFace : [model card](https://huggingface.co/SRDdev/Hin2Hing-Keras_NLP)
+```python
+from huggingface_hub import from_pretrained_keras
+
+model = from_pretrained_keras("SRDdev/Hin2Hing-Keras_NLP")
+```
+
 ## Problem Statement
 The challenge for this hackathon is to develop a Machine Learning model that can accurately translate English sentences into Hinglish. The dataset provided for training and validation includes English, Hindi, and Hinglish sentences. The test dataset includes only English and Hindi sentences.
 
